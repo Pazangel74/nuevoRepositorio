@@ -1,0 +1,10 @@
+import os
+os.system('cls' if os.name == 'nt' else 'clear')
+
+key = "Contraseña"
+password = ""
+# Solicitar al usuario que ingrese una contraseña
+# El bucle continuará hasta que se ingrese la contraseña correcta
+while password != key:
+    password = input("Introduzca la contraseña: ")
+print("Contraseña Correcta")

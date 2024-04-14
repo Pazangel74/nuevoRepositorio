@@ -1,0 +1,9 @@
+import os
+os.system('cls'if os.name=='nt'else 'clear')
+
+#Se le solicita al usuario ingresar un numero que sera la altura del triangulo
+
+n = int(input("Introduce la altura del triángulo (entero positivo): "))
+for i in range(n):
+   print("*"*(i+1))
+

@@ -1,0 +1,7 @@
+import os
+os.system('cls' if os.name == 'nt' else 'clear')
+
+#Se solicita ingresar un numero de telefono con un formato y el resultado muestra in formato.
+
+tel = input("Introduce un número de teléfono con el formato +xx-xxxxxxxxx-xxxx: ")
+print('El número de teléfono es ', tel[4:-3])

@@ -1,0 +1,10 @@
+import os
+os.system('cls'if os.name=='nt'else 'clear')
+
+#Se le pide al usuario ingresar algo y esto se repite hasta que el usuario ingrese salir
+
+while True:
+    frase = input("Introduce algo: ")
+    if frase == "salir":
+        break
+    print(frase)

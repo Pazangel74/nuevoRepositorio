@@ -1,0 +1,7 @@
+import os
+os.system('cls'if os.name=='nt'else 'clear')
+
+#Lista de materias
+
+materias=["Matematicas","Fisica","Quimica","Historia","Ingles"]
+print(materias)

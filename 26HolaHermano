@@ -1,0 +1,15 @@
+import os
+os.system('cls' if os.name == 'nt' else 'clear')
+
+# Programa para mostrar hola hermano con el nombre y hacerle una pregunta
+
+def greet(name, question):
+    """Función que muestra el saludo ¡Hola hermano! con el nombre y hace una pregunta por pantalla."""
+    print(f'¡Hola, hermano {name}! {question}')
+    return
+
+# Solicitar al usuario que ingrese el nombre del hermano y la pregunta
+brother_name = input("Ingresa el nombre de tu hermano: ")
+question_to_ask = input("¿Qué pregunta le quieres hacer a tu hermano?: ")
+# Llamada a la función greet con el nombre del hermano y la pregunta
+greet(brother_name, question_to_ask)

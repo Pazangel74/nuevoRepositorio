@@ -1,0 +1,7 @@
+import os
+os.system('cls' if os.name == 'nt' else 'clear')
+
+#Se le solicita al usuario ingresar su numero y se le dice cuantas letras tiene su nombre.
+
+nombre = input("¿Cómo te llamas? ")
+print(nombre.upper() + " tiene " + str(len(nombre)) + " letras")

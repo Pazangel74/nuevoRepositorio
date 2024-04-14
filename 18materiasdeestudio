@@ -1,0 +1,8 @@
+import os
+os.system('cls'if os.name=='nt'else 'clear')
+
+#Materias que el usuario estudia
+
+materias = ["Matemáticas", "Física", "Química", "Historia", "Lengua"]
+for materia in materias:
+    print("Yo estudio " + materia)

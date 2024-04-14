@@ -1,0 +1,8 @@
+import os
+os.system('cls' if os.name == 'nt' else 'clear')
+
+# Este programa le pide al usuario ingresar un número entero positivo
+# y luego muestra la cuenta regresiva de ese número hasta cero.
+n = int(input("Introduzca un numero entero positivo: "))
+for i in range(n, -1, -1):
+    print(i, end=", ")

@@ -1,0 +1,11 @@
+import os
+os.system('cls'if os.name=='nt'else 'clear')
+
+#Se le pregunta al usuario una cantidad a invertir, el interes anual y el numero de años
+#Se le muestra el capital obtenido 
+
+cantidad=float(input("¿Cantidad a invertir?"))
+interes=float(input("¿Interes porcentual anual?"))
+años=int(input("años?"))
+print("Capital Final:"+str(round(cantidad*(interes/100+1)**años,2)))
+

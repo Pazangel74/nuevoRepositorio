@@ -1,0 +1,9 @@
+import os
+os.system('cls' if os.name == 'nt' else 'clear')
+
+# Se le solicita al usuario que ingrese un número entero positivo y se le muestran los números impares desde
+# 1 hasta ese número
+
+n = int(input("Introduzca un número entero positivo: "))
+for i in range(1, n + 1, 2):
+    print(i, end=", ")

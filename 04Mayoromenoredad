@@ -1,0 +1,11 @@
+# Programa para identificar en qué rango de edad está una persona
+import os
+os.system('cls' if os.name == 'nt' else 'clear')
+
+edad = int(input("¿Cuál es tu edad? "))
+if edad < 18:
+    print("Eres menor de edad")
+elif edad >= 60:
+    print("Eres de la tercera edad")
+else:
+    print("Eres mayor de edad")

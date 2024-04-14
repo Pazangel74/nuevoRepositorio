@@ -1,0 +1,9 @@
+import os
+os.system('cls'if os.name=='nt'else 'clear')
+
+#Se le solicita al usuario ingresar su peso,estatura y se le indica cual es su indice de masa corporal
+
+peso = input("¿Cuál es tu peso en kg? ")
+estatura = input("¿Cuál es tu estatura en metros?")
+imc = round(float(peso)/float(estatura)**2,2)
+print("Tu índice de masa corporal es " + str(imc))

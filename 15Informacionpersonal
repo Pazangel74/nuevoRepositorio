@@ -1,0 +1,16 @@
+import os
+os.system('cls' if os.name == 'nt' else 'clear')
+
+# Programa para almacenar y mostrar información personal
+# Nombre del programa: InformacionPersonal
+# Solicitar información al usuario
+nombre = input('Como te llamas? ')
+edad = input('Cuantos años tienes? ')
+direccion = input('Cual es tu direccion? ')
+telefono = input('Cual es tu numero de telefono? ')
+
+# Almacenar la información en un diccionario
+persona = {'nombre': nombre, 'edad': edad, 'direccion': direccion, 'telefono': telefono}
+
+# Imprimir la información de la persona
+print(persona['nombre'], 'tiene', persona['edad'], 'años', 'vive en', persona['direccion'], 'y su numero de telefono es', persona['telefono'])

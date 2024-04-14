@@ -1,0 +1,11 @@
+import os
+os.system('cls'if os.name=='nt'else 'clear')
+
+#Se le solicita al usuario ingresar cuantas horas trabajo y cuanto es el valor de cada hora.
+#y se le muestra como resultado cuanto resivira de sueldo.
+
+#Horas Trabajadas 
+horas=float(input("Introduce las horas trabajadas:"))
+coste=float(input("Introduce el costo por hora:"));
+paga=horas*coste
+print("Tu pago es",paga)
